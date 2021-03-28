@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextEmf"
+        android:layout_width="368dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="411dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="250dp"
+        android:text="Start"
+        app:layout_constraintBottom_toTopOf="@+id/stop"
+        app:layout_constraintEnd_toStartOf="@+id/stop"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="394dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="250dp"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmf"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <EditText
+        android:id="@+id/editTextlat"
+        android:layout_width="337dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="112dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/start"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmf"
+        tools:layout_editor_absoluteX="35dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

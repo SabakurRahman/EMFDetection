@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Data Store App</string>
+    <array name="genres">
+        <item>Rock</item>
+        <item>Sufi</item>
+        <item>Pop</item>
+        <item>Flock</item>
+
+    </array>
+</resources>

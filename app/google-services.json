@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205094481053",
+    "firebase_url": "https://fristproject-b6609.firebaseio.com",
+    "project_id": "fristproject-b6609",
+    "storage_bucket": "fristproject-b6609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205094481053:android:9fb25e2bac987ee22c3874",
+        "android_client_info": {
+          "package_name": "com.example.datastoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205094481053-orskqm228km0brjtnlm0m8174apjn5ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datastoreapp",
+            "certificate_hash": "38d926368b5636b9f8ed3c8f284aebd92e8e016d"
+          }
+        },
+        {
+          "client_id": "205094481053-ncg7q6no1gl7fp8keu3kdghbp03g36gg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXzudE6xEAhiwgdK32zQW0WqlTUXU45E4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205094481053-ncg7q6no1gl7fp8keu3kdghbp03g36gg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
